@@ -95,19 +95,27 @@ function draw() {
 
             // Draw dark area
             stroke(playerColor);
+            strokeWeight(1);
             fill(0, 0, 0, 100);
             rect(0, height / 3, width, height / 3);
 
-            fill(255, 255, 255)
             let pointString;
             if (count === 1) pointString = "point";
             if (count > 1) pointString = "points";
+            fill(255, 255, 255);
+            textSize(32);
+            textAlign(CENTER, CENTER);
             text(playerName + " won by " + count.toString() + " " + pointString + ".", width / 2, height / 2);
         } else if (gameState.tie) {
             // Draw dark area
-            stroke(playerColor);
+            stroke(0);
+            strokeWeight(1);
             fill(0, 0, 0, 100);
             rect(0, height / 3, width, height / 3);
+
+            fill(255, 255, 255);
+            textSize(32);
+            textAlign(CENTER, CENTER);
             text("It's a tie.", width / 2, height / 2);
         }
     } else {
