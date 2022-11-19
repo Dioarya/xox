@@ -13,7 +13,6 @@ let clicked;
 // Todo: Add a vs bot mode
 // Todo: Add multiple players (probably will have to use only color and circles as pieces)
 // Todo: Add a menu to change the settings.
-// Todo: 
 // Todo: Make this into a ts file (really hard probably 😢)
 // Todo: Make the curresnt score viewer better
 

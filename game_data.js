@@ -10,8 +10,8 @@ function defineVariables() {
     gameData = {
         lines: [],
         grid: undefined,
-        cols: 10,
-        rows: 10,
+        cols: 8,
+        rows: 8,
         checkSize: 3,
         count: []
     };
